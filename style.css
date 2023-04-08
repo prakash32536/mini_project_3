@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+}
+/* left part  */
+.left_part{
+    width: 25%;
+    height: 94vh;
+    padding: 20px;
+    background-color: black;
+    position: relative;
+    border-right: 1px solid rgb(177, 177, 177);
+}
+/* insta logo  */
+.insta_logo{
+    color: white;
+    margin: 33px 0px;
+}
+/* all home logos  */
+.navbar_name{
+    color: white;
+}
+.left_logo{
+    margin-right: 19px;
+    color: white;
+}
+/* more tab  */
+.more{
+    position: absolute;
+    bottom: 0;
+}
+
+/* mid part starts from haer */
+
+.mid_part{
+    width: 75%;
+    padding-left: 10%;
+    display: flex;
+}
+.mid_part_1{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+/* story  */
+.story{
+    width: 130%;
+    display: flex;
+    margin-top: 30px;
+}
+.outer_story{
+    width: 9%;
+    margin: 0px 10px;
+}
+.iner_story{
+    width: 80%;
+    border: 2px solid #d30d4f;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    padding: 2px;
+}
+.story_img{
+    width: 99%;
+    border-radius: 100%;
+}
+/* post starts from haer  */
+.post_1{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.post_profile{
+    display: flex;
+        align-items: center;
+}
+.post_img{
+
+    width: 7%;
+    border-radius: 100%;
+    height: 44px;
+}
+.post_description{
+    color: white;
+}
+.profile_name{
+    margin: 2px 20px;
+    color: white;
+}
+.post_time{
+    margin-left: 20px;
+    font-size:15px;
+    color: rgb(158, 158, 158);
+}
+.post_location{
+    font-size:11px;
+    margin: 2px 20px;
+}
+/* main post starts from hare  */
+.post{
+    margin: 10px 5px;
+}
+.main_post{
+    border-radius: 6px;
+    width: 80%;
+
+}
+/* like coment share  */
+.like_coment_save{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin:0px 5px ;
+}
+.like{
+    color: rgb(255, 104, 129);
+}
+.white{
+    color:white ;
+    margin-left: 8px;
+}
+.like_count{
+    color: white;
+    font-size: 12px;
+}
+.caption{
+    color: white;
+    font-size: 12px;
+}
+.view_comment{
+    color: rgb(168, 168, 168);
+    font-size: 12px;
+}
+.add_comment{
+    color: rgb(168, 168, 168);
+    font-size: 12px;
+}
+
+
+/* mid part 2  */
+.mid_part_2{
+    width: 45%;
+}
+
+/* switch profile  */
+.switch{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 8px;
+}
+.switch_profile{
+    display: flex;
+    align-items: center;
+
+}
+.switch_profile_img{
+    width: 15%;
+}
+.blue{
+    color: blue;
+    margin-right: 15px;
+}
+/* suggestions header part  */
+.suggestions_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ /* all suggestions  */
+.suggestion_no{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px;
+}
+.suggestion_profile{
+    display: flex;
+    align-items: center;
+}
+.suggestion_profile_img{
+    width: 15%;
+}
+/* end  */
+.gray_end{
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+}
+ 
